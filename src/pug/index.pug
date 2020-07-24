@@ -1,0 +1,270 @@
+extends layout/_main.pug 
+
+block title 
+	| Главная страница
+
+block content
+	.main.pt-5
+		.applicants.mb-5
+			.container
+				.row.justify-content-around
+					.col-4.col-xl-3
+						.applicants__item
+							h6
+								a(href="#") Абитуриентам
+							ul
+								li
+									a(href="#") Поступление 2020
+								li
+									a(href="#") Документы для поступления
+								li
+									a(href="#") Вступительные экзамены
+					.col-4.col-xl-3
+						.applicants__item
+							h6
+								a(href="#") Студентам
+							ul
+								li
+									a(href="#") Поступление 2020
+								li
+									a(href="#") Документы для поступления
+								li
+									a(href="#") Вступительные экзамены
+					.col-4.col-xl-3
+						.applicants__item
+							h6
+								a(href="#") Дополнительное образование
+							ul
+								li
+									a(href="#") Поступление 2020
+								li
+									a(href="#") Документы для поступления
+								li
+									a(href="#") Вступительные экзамены
+		.updates.my-5
+			.container
+				.row.align-items-stretch
+					.col-12.col-lg-8
+						.news
+							ul.nav.nav-tabs
+								li.nav-item
+									a(href="#news" data-toggle="tab").nav-link.active 
+										h4 Новости
+								li.nav-item.d-lg-none
+									a(href="#events" data-toggle="tab").nav-link.active 
+										h4 События
+								li.nav-item
+									a(href="#media" data-toggle="tab").nav-link 
+										h4 СМИ
+								li.nav-item
+									a(href="#life" data-toggle="tab").nav-link 
+										h4 
+											|МБИ 
+											span life
+							.show-all.p-3.d-flex.justify-content-end
+								a(href="#") Все новости >
+							.tab-content
+								.tab-pane.fade.show.active#news
+									.news-list
+										.news-item
+											.news-item__img
+												img(src="img/msadovaya6.jpg", alt="")
+											.news-item__text
+												p.news-item__date 03.07.2020
+												h5.news-item__title 
+													a(href="#") Поступление в МБИ имени Анатолия Собчака
+												p.news-item__descr 
+													|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+													|принимает документы от абитуриентов для поступления!
+										.news-item
+											.news-item__img
+												img(src="img/msadovaya6.jpg", alt="")
+											.news-item__text
+												p.news-item__date 03.07.2020
+												h5.news-item__title 
+													a(href="#") Поступление в МБИ имени Анатолия Собчака
+												p.news-item__descr 
+													|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+													|принимает документы от абитуриентов для поступления!
+										.news-item
+											.news-item__img
+												img(src="img/msadovaya6.jpg", alt="")
+											.news-item__text
+												p.news-item__date 03.07.2020
+												h5.news-item__title 
+													a(href="#") Поступление в МБИ имени Анатолия Собчака
+												p.news-item__descr 
+													|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+													|принимает документы от абитуриентов для поступления!
+								.tab-pane.fade.show#events
+									.events-list 
+										.events-item 
+											p.events-item__date 03.07.2020
+											h5.events-item__title 
+												a(href="#") Поступление в МБИ имени Анатолия Собчака
+											p.events-item__descr 
+												|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+												|принимает документы от абитуриентов для поступления!
+										.events-item 
+											p.events-item__date 03.07.2020
+											h5.events-item__title 
+												a(href="#") Поступление в МБИ имени Анатолия Собчака
+											p.events-item__descr 
+												|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+												|принимает документы от абитуриентов для поступления!
+										.events-item 
+											p.events-item__date 03.07.2020
+											h5.events-item__title 
+												a(href="#") Поступление в МБИ имени Анатолия Собчака
+											p.events-item__descr 
+												|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+												|принимает документы от абитуриентов для поступления!
+										.events-item 
+											p.events-item__date 03.07.2020
+											h5.events-item__title 
+												a(href="#") Поступление в МБИ имени Анатолия Собчака
+											p.events-item__descr 
+												|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+												|принимает документы от абитуриентов для поступления!
+								.tab-pane.fade.show#media
+									.news-list
+										.news-item
+											.news-item__img
+												img(src="img/msadovaya6.jpg", alt="")
+											.news-item__text
+												p.news-item__date 03.07.2020
+												h5.news-item__title 
+													a(href="#") Поступление в МБИ имени Анатолия Собчака
+												p.news-item__descr 
+													|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+													|принимает документы от абитуриентов для поступления!
+										.news-item
+											.news-item__img
+												img(src="img/msadovaya6.jpg", alt="")
+											.news-item__text
+												p.news-item__date 03.07.2020
+												h5.news-item__title 
+													a(href="#") Поступление в МБИ имени Анатолия Собчака
+												p.news-item__descr 
+													|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+													|принимает документы от абитуриентов для поступления!
+										.news-item
+											.news-item__img
+												img(src="img/msadovaya6.jpg", alt="")
+											.news-item__text
+												p.news-item__date 03.07.2020
+												h5.news-item__title 
+													a(href="#") Поступление в МБИ имени Анатолия Собчака
+												p.news-item__descr 
+													|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+													|принимает документы от абитуриентов для поступления!
+								.tab-pane.fade.show#life
+									.news-list
+										.news-item
+											.news-item__img
+												img(src="img/msadovaya6.jpg", alt="")
+											.news-item__text
+												p.news-item__date 03.07.2020
+												h5.news-item__title 
+													a(href="#") Поступление в МБИ имени Анатолия Собчака
+												p.news-item__descr 
+													|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+													|принимает документы от абитуриентов для поступления!
+										.news-item
+											.news-item__img
+												img(src="img/msadovaya6.jpg", alt="")
+											.news-item__text
+												p.news-item__date 03.07.2020
+												h5.news-item__title 
+													a(href="#") Поступление в МБИ имени Анатолия Собчака
+												p.news-item__descr 
+													|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+													|принимает документы от абитуриентов для поступления!
+										.news-item
+											.news-item__img
+												img(src="img/msadovaya6.jpg", alt="")
+											.news-item__text
+												p.news-item__date 03.07.2020
+												h5.news-item__title 
+													a(href="#") Поступление в МБИ имени Анатолия Собчака
+												p.news-item__descr 
+													|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+													|принимает документы от абитуриентов для поступления!
+					.d-none.d-lg-block.col-lg-4
+						.events
+							h4 События
+							.show-all.p-3.d-flex.justify-content-end
+								a(href="#") Все новости >
+							.events-list 
+								.events-item 
+									p.events-item__date 03.07.2020
+									h5.events-item__title 
+										a(href="#") Поступление в МБИ имени Анатолия Собчака
+									p.events-item__descr 
+										|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+										|принимает документы от абитуриентов для поступления!
+								.events-item 
+									p.events-item__date 03.07.2020
+									h5.events-item__title 
+										a(href="#") Поступление в МБИ имени Анатолия Собчака
+									p.events-item__descr 
+										|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+										|принимает документы от абитуриентов для поступления!
+								.events-item 
+									p.events-item__date 03.07.2020
+									h5.events-item__title 
+										a(href="#") Поступление в МБИ имени Анатолия Собчака
+									p.events-item__descr 
+										|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+										|принимает документы от абитуриентов для поступления!
+								.events-item 
+									p.events-item__date 03.07.2020
+									h5.events-item__title 
+										a(href="#") Поступление в МБИ имени Анатолия Собчака
+									p.events-item__descr 
+										|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
+										|принимает документы от абитуриентов для поступления!
+		.about.py-5
+			.container
+				.row
+					.col-12.col-lg-6
+						.about-text
+							h2 Об институте
+							p 	
+								|Международный банковский институт имени Анатолия Собчака 
+								|основан в 1991 году и сегодня занимает первое место в рейтинге 
+								|негосударственных образовательных организаций Петербурга.
+								|МБИ имени Анатолия Собчака дважды становился лауреатом конкурса 
+								|качества Федеральной службы по надзору в сфере образования и науки. 
+								|Мы единственный негосударственный ВУЗ в России - дипломант конкурса 
+								|качества Правительства России. Институт также удостоен награды 
+								|Европейской сети банковского обучения «За выдающиеся достижения в области 
+								|качества образования»
+							a(href="").button.d-none.d-lg-inline-block Узнать больше
+					.col-12.col-lg-6
+						.about-img
+							img(src="img/msadovaya6.jpg", alt="")
+		.info
+			h3.py-3 МБИ имени Анатолия Собчака в цифрах
+			.container
+				.row.py-4
+					.col-3.info-col
+						.info__item
+							h4 1 
+							h6 ЕДИНСТВЕННЫЙ ВУЗ РОССИИ
+							p ОБЛАДАТЕЛЬ НАГРАДЫ ЕВРОПЕЙСКОЙ СЕТИ БАНКОВСКОГО ОБУЧЕНИЯ (EBTN) «ЗА ВЫДАЮЩИЕСЯ ДОСТИЖЕНИЯ В ОБЛАСТИ КАЧЕСТВА ОБРАЗОВАНИЯ» И ДИПЛОМАНТ КОНКУРСА КАЧЕСТВА ОБРАЗОВАНИЯ ПРАВИТЕЛЬСТВА РОССИИ
+					.col-3.info-col
+						.info__item
+							h4 1991
+							h6 ГОД ОСНОВАНИЯ ИНСТИТУТА
+							p СОГЛАСНО УКАЗУ МЭРА САНКТ-ПЕТЕРБУРГА АНАТОЛИЯ СОБЧАКА
+					.col-3.info-col
+						.info__item
+							h4 21000
+							h6 ВЫПУСКНИКОВ
+							p ВЫПУСКНИКИ МБИ: СОБСТВЕННИКИ БИЗНЕСА, МЕНЕДЖЕРЫ СРЕДНЕГО ЗВЕНА И РУКОВОДИТЕЛИ В КРУПНЕЙШИХ БАНКАХ СТРАНЫ, СОТРУДНИКИ МЕЖДУНАРОДНЫХ КОМПАНИЙ
+					.col-3.info-col
+						.info__item
+							h4 100%
+							h6 ГАРАНТИЯ ТРУДОУСТРОЙСТВА
+							p 40% ПРЕПОДАВАТЕЛЕЙ МБИ РАБОТАЮТ В ДЕЙСТВУЮЩИХ БИЗНЕС-СТРУКТУРАХ. ВСЕ ВЫПУСКНИКИ ТРУДОУСТРАИВАЮТСЯ В ТЕЧЕНИИ 2-3 МЕСЯЦЕВ ПОСЛЕ ПОЛУЧЕНИЯ ДИПЛОМА.

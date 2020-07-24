@@ -1,0 +1,21 @@
+extends layout/_main.pug 
+
+block title 
+	| Внутренняя страница
+
+block content
+	.main.py-5
+		.container
+			.row.justify-content-between.align-items-streach
+				.d-none.d-lg-block.col-lg-4
+					.sidebar
+						p sidebar
+				.col-12.col-lg-8
+					nav(aria-label="breadcrumb")
+						ol.breadcrumb
+							li.breadcrumb-item
+								a(href="#") Главная
+							li(aria-current="page").breadcrumb-item.active
+								|Внутренняя страница
+					.content
+						p content

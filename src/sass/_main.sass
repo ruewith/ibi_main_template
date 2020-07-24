@@ -1,0 +1,123 @@
+.main 
+    background-color: $gray
+.applicants
+    &__item
+        padding: 1.8em
+        min-height: 16em
+        border-top: .3em solid $base
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        background-color: #fff
+        box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.1)
+        h6
+            text-align: center
+            color: $base
+        ul 
+            li 
+                padding: .3em 0
+                a 
+                    &:hover 
+                        text-decoration: underline
+.show
+    &-all 
+        a 
+            &:hover 
+                text-decoration: underline
+.news
+    span 
+        font-family: 'Rowdies'
+        text-transform: none
+    &-item
+        height: 13em
+        padding: 2em
+        margin-bottom: 2em
+        background-color: #fff
+        display: flex
+        justify-content: space-between
+        box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, .1)
+        &:last-child
+            margin-bottom: 0
+        p 
+            margin-bottom: .5em
+        &__img
+            width: 12em
+        &__text 
+            width: 30em
+        &__title 
+            color: $base
+            text-transform: none
+.events
+    h4 
+        padding: .4em .7em
+    &-list
+        padding: 1.5em 
+        background-color: #fff
+        box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, .1)
+    &-item
+        border-bottom: 2px solid $gray-footer
+        margin-bottom: .5em
+        p 
+            margin-bottom: .5em
+        &:last-child
+            border-bottom: none
+            margin-bottom: 0
+        &__title
+            color: $base
+            text-transform: none
+
+
+.about
+    background-color: #fff
+    box-shadow: 0 -10px 10px 0 rgba(0, 0, 0, .1)
+    &-text
+        
+        font-size: 1.1rem
+        line-height: 1.4
+        h2 
+            color: $base
+            margin-bottom: 2rem
+        p 
+            margin-bottom: 2rem
+.info
+    background-color: $base
+    color: #ffffff
+    font-family: 'Montserrat', sans-serif
+    text-align: center
+    text-transform: uppercase
+    h3
+        background-color: #fff
+        text-align: center
+        color: $base
+    h4
+        font-family: sans-serif
+        font-size: 3rem
+        font-weight: 700
+    h6
+        font-size: .9rem
+        font-weight: 700
+    p 
+        font-size: .6rem
+        line-height: 1.4
+    &__item 
+        height: 15rem
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+    &-col 
+        position: relative
+        &::after
+            content: ''
+            position: absolute
+            width: 2px
+            height: 15rem
+            background-color: #ffffff
+            top: 0 
+            right: 0
+        &:last-child
+            &::after
+                display: none
+.sidebar, .content
+    background-color: #fff
+    padding: 2rem
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1)

@@ -1,0 +1,48 @@
+@media( min-width: 1366px )
+    .container
+        min-width: 1200px
+
+@media( max-width: 1200px)
+    body 
+        font-size: 14px
+    .header
+        &-main
+            &-menu
+                li 
+                    font-size: 1.3em
+                    & >
+                        ul 
+                            li 
+                                a 
+                                    font-size: 0.7em
+    .news
+        &-item
+            height: 14em
+            &__text 
+                width: 65%
+            &__img
+                width: 30%
+    .events
+        &-list 
+            padding: 2em 1em
+@media ( max-width: 992px )
+    .header
+        &-top 
+            font-size: 1em
+        &-main
+            &-menu
+                li 
+                    font-size: 1em
+        &-logo
+            width: 15em
+        &-services
+            height: auto
+            li
+                width: 20%
+                a 
+                    font-size: .8em
+                    padding: .5em
+                    height: auto
+    .news
+        &-item
+            height: 15em
