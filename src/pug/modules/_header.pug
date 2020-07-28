@@ -1,5 +1,13 @@
-header.header.pb-3
-    .header-top.py-2
+header.header.pb-sm-3
+    .header-mobile.p-3.d-sm-none
+        .container
+            .row.no-gutters.justify-content-between.align-items-center
+                .header-mobile__logo
+                    a(href="#")
+                        img(src="img/logo-mob.png", alt="")
+                .header-mobile__menu
+                    i.fas.fa-bars
+    .header-top.py-2.d-none.d-sm-block
         .container
             .row.no-gutters
                 .col-2.header-settings.d-flex.justify-content-around.align-items-center
@@ -37,9 +45,9 @@ header.header.pb-3
                             i.fab.fa-facebook-f
     .header-main
         .container
-            .row.no-gutters
+            .row.no-gutters.d-none.d-sm-block
                 .col
-                    ul.header-nav-menu.d-flex.justify-content-end.my-1
+                    ul.header-nav-menu.d-flex.justify-content-end.py-1
                         li
                             a(href="#") Об институте
                             ul
@@ -76,12 +84,12 @@ header.header.pb-3
                                     a(href="#") Two
                                 li
                                     a(href="#") Three
-            .row.justify-content-between
+            .row.justify-content-between.d-none.d-sm-block
                 .col
                     .header-logo.mb-3
                         a(href="#")
                             img(src="img/logo.png")
-            .row
+            .row.d-none.d-sm-block
                 .col
                     ul.header-main-menu.d-flex.justify-content-between.my-1
                         li
@@ -129,20 +137,20 @@ header.header.pb-3
                         li
                             a(href="#")
                                 i.fas.fa-user
-                                span Личный кабинет
+                                span.d-none.d-sm-block Личный кабинет
                         li
                             a(href="#")
                                 i.fas.fa-cloud
-                                span Библиотека
+                                span.d-none.d-sm-block Библиотека
                         li
                             a(href="#")
                                 i.fas.fa-file-alt
-                                span Расписание
+                                span.d-none.d-sm-block Расписание
                         li
                             a(href="#")
                                 i.fas.fa-desktop
-                                span ЕЭОС
+                                span.d-none.d-sm-block ЕЭОС
                         li
                             a(href="#")
                                 i.fas.fa-phone-alt
-                                span Контакты
+                                span.d-none.d-sm-block Контакты

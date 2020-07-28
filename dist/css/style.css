@@ -80,10 +80,22 @@ h6 {
   background-color: #ededed;
 }
 
+.header-mobile {
+  background-color: #4fa7b1;
+}
+
+.header-mobile__logo {
+  width: 150px;
+}
+
+.header-mobile__menu {
+  font-size: 4em;
+  color: #ffffff;
+}
+
 .header-top {
   background-color: #4fa7b1;
   color: #ffffff;
-  font-size: 1.2em;
 }
 
 .header-view {
@@ -328,7 +340,7 @@ h6 {
 
 .applicants__item {
   padding: 1.8em;
-  min-height: 16em;
+  min-height: 18em;
   border-top: 0.3em solid #4fa7b1;
   display: flex;
   flex-direction: column;
@@ -425,17 +437,17 @@ h6 {
 }
 
 .about-text {
-  font-size: 1.1rem;
+  font-size: 1.1em;
   line-height: 1.4;
 }
 
 .about-text h2 {
   color: #4fa7b1;
-  margin-bottom: 2rem;
+  margin-bottom: 2em;
 }
 
 .about-text p {
-  margin-bottom: 2rem;
+  margin-bottom: 2em;
 }
 
 .info {
@@ -469,7 +481,7 @@ h6 {
 }
 
 .info__item {
-  height: 15rem;
+  height: 18em;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -483,7 +495,7 @@ h6 {
   content: '';
   position: absolute;
   width: 2px;
-  height: 15rem;
+  height: 18em;
   background-color: #ffffff;
   top: 0;
   right: 0;
@@ -563,7 +575,110 @@ h6 {
     height: auto;
   }
 
+  .applicants__item {
+    margin: 0.5em;
+    min-height: 15em;
+  }
+
+  .applicants__item h6 {
+    font-size: 1em;
+  }
+
   .news-item {
     height: 15em;
+  }
+
+  .about-text p {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+
+  .about-text h2 {
+    margin-bottom: 1em;
+  }
+
+  .about-text p {
+    font-size: 1.3em;
+  }
+
+  .info h3 {
+    font-size: 2em;
+  }
+
+  .info__item {
+    height: 20em;
+  }
+
+  .info__item h4 {
+    font-size: 2em;
+  }
+
+  .info__item h6 {
+    font-size: 1em;
+  }
+
+  .info__item p {
+    font-size: .7em;
+  }
+
+  .info-col:after {
+    height: 20em;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-services li a {
+    font-size: 3em;
+    color: #4fa7b1;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6e6e6;
+    border: 3px solid #ffffff;
+  }
+
+  .header-services li a:hover {
+    color: #ffffff;
+  }
+
+  .applicants__item {
+    font-size: 1.2em;
+    margin: 0;
+    border-top: none;
+    min-height: auto;
+  }
+
+  .applicants__item ul {
+    display: none;
+  }
+
+  .updates h4 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+
+  .updates h5 {
+    font-size: 1.1em;
+  }
+
+  .news-item {
+    margin: 0;
+    padding: 1em;
+    height: 12em;
+    align-items: center;
+  }
+
+  .about-text {
+    padding: 1em;
+  }
+
+  .about-text h2 {
+    margin-bottom: .5em;
+    font-size: 2em;
+    text-align: center;
   }
 }

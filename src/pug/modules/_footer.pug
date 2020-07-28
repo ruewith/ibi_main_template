@@ -20,7 +20,7 @@ footer.footer
                             i.fab.fa-facebook-f
     .footer-main.py-5
         .container
-            .row.justify-content-between
+            .row.justify-content-between.flex-column.flex-sm-row.align-items-center.align-items-sm-start
                 .col-4
                     .footer-contacts
                         h4 Контакты
@@ -45,7 +45,7 @@ footer.footer
                                     a(href="#") +7 812 570-55-50
                                 p Экономический лицей
                 .col-4
-                    .footer-about
+                    .footer-about.d-none.d-sm-block
                         h4 Об институте
                         ul.footer-about-menu
                             li
@@ -71,13 +71,14 @@ footer.footer
                             li
                                 a(href="#") Контакты
                     .footer-info
-                        h4 Информация о сайте
+                        h4.d-none.d-sm-block Информация о сайте
                         p 
                             i.far.fa-copyright
                             span  1991-2020 АНО ВО "МБИ имени Анатолия Собчака" 
                             |Сайт разработан в соответствии с требованиями 
                             |Постановления Правительства РФ № 582 от 10.07.2013
                 .col-4
-                    .footer-sitemap
+                    .footer-sitemap.d-none.d-sm-block
                         h4 Карта сайта
                     .footer-widget
+                        //-iframe(src="https://averin.pro/widget.php?l=ibi.spb&style=1&width=200&gallery=1&s=150&icc=3&icr=3&t=0&tt=Мы в Инстаграм&h=0&ttcolor=FFFFFF&th=c3c3c3&bw=f9f9f9&bscolor=FFFFFF&bs=FF0000&ts=Подписаться&ch=utf8" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:350px; height: 490px")

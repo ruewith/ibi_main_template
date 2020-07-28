@@ -43,6 +43,79 @@
                     font-size: .8em
                     padding: .5em
                     height: auto
+    .applicants
+        &__item
+            margin: 0.5em
+            min-height: 15em
+            h6 
+                font-size: 1em
     .news
         &-item
             height: 15em
+    .about
+        &-text
+            p
+                font-size: 1.1em
+@media ( max-width: 768px )
+    body
+        font-size: 10px
+    .about
+        &-text
+            h2
+                margin-bottom: 1em
+            p
+                font-size: 1.3em
+    .info
+        h3
+            font-size: 2em
+        &__item
+            height: 20em
+            h4 
+                font-size: 2em
+            h6 
+                font-size: 1em
+            p 
+                font-size: .7em
+        &-col 
+            &:after 
+                height: 20em
+@media ( max-width: 576px )
+    .header
+        &-services
+            li 
+                a
+                    font-size: 3em
+                    color: $base
+                    align-items: center
+                    justify-content: center
+                    background-color: $gray-footer
+                    border: 3px solid #ffffff
+                    &:hover 
+                        color: #ffffff
+    .applicants
+        &__item
+            font-size: 1.2em
+            margin: 0
+            border-top: none
+            min-height: auto
+            ul
+                display: none
+    .updates
+        h4 
+            margin: 0
+            font-size: 1.2em
+        h5
+            font-size: 1.1em
+    .news
+        &-item
+            margin: 0
+            padding: 1em
+            height: 12em
+            align-items: center
+    .about
+        &-text
+            padding: 1em
+            h2
+                margin-bottom: .5em
+                font-size: 2em
+                text-align: center

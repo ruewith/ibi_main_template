@@ -4,11 +4,11 @@ block title
 	| Главная страница
 
 block content
-	.main.pt-5
-		.applicants.mb-5
+	.main
+		.applicants.py-sm-5
 			.container
-				.row.justify-content-around
-					.col-4.col-xl-3
+				.row.no-gutters.justify-content-around.flex-column.flex-sm-row.align-items-center
+					.col-sm-4.col-lg-3
 						.applicants__item
 							h6
 								a(href="#") Абитуриентам
@@ -19,7 +19,7 @@ block content
 									a(href="#") Документы для поступления
 								li
 									a(href="#") Вступительные экзамены
-					.col-4.col-xl-3
+					.col-sm-4.col-lg-3
 						.applicants__item
 							h6
 								a(href="#") Студентам
@@ -30,7 +30,7 @@ block content
 									a(href="#") Документы для поступления
 								li
 									a(href="#") Вступительные экзамены
-					.col-4.col-xl-3
+					.col-sm-4.col-lg-3
 						.applicants__item
 							h6
 								a(href="#") Дополнительное образование
@@ -41,7 +41,7 @@ block content
 									a(href="#") Документы для поступления
 								li
 									a(href="#") Вступительные экзамены
-		.updates.my-5
+		.updates.py-3.py-sm-5
 			.container
 				.row.align-items-stretch
 					.col-12.col-lg-8
@@ -61,7 +61,7 @@ block content
 										h4 
 											|МБИ 
 											span life
-							.show-all.p-3.d-flex.justify-content-end
+							.show-all.d-none.p-sm-3.d-sm-flex.justify-content-end
 								a(href="#") Все новости >
 							.tab-content
 								.tab-pane.fade.show.active#news
@@ -224,7 +224,7 @@ block content
 									p.events-item__descr 
 										|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
 										|принимает документы от абитуриентов для поступления!
-		.about.py-5
+		.about.py-3.py-sm-5
 			.container
 				.row
 					.col-12.col-lg-6
@@ -242,9 +242,9 @@ block content
 								|качества образования»
 							a(href="").button.d-none.d-lg-inline-block Узнать больше
 					.col-12.col-lg-6
-						.about-img
+						.about-img.d-none.d-sm-block
 							img(src="img/msadovaya6.jpg", alt="")
-		.info
+		.info.d-none.d-sm-block
 			h3.py-3 МБИ имени Анатолия Собчака в цифрах
 			.container
 				.row.py-4
