@@ -131,7 +131,30 @@ header.header.pb-sm-3
             .row.no-gutters.justify-content-between.align-items-center
                 .col-12.col-lg-9.p-lg-2
                     .header-promo
-                        img(src="img/banner.jpg", alt="")
+                        #carouselExampleIndicators.carousel.slide(data-ride='carousel')
+                            ol.carousel-indicators
+                                li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
+                                li(data-target='#carouselExampleIndicators', data-slide-to='1')
+                                li(data-target='#carouselExampleIndicators', data-slide-to='2')
+                            .carousel-inner
+                                .carousel-item.active
+                                    a(href="#")
+                                        img.d-block.w-100(src='img/banner1.png', alt='Первый слайд')
+                                    .carousel-caption.d-none.d-md-block
+                                        h2 Заголовок первого слайда
+                                        h4 Подзаголовок первого слайда
+                                        p Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вопрос подпоясал раз своего ведущими мир. Там одна, живет, деревни свой текстами на берегу злых залетают языком страну бросил своих грустный?
+                                .carousel-item
+                                    a(href="#")
+                                    img.d-block.w-100(src='img/banner2.png', alt='Второй слайд')
+                                .carousel-item
+                                    img.d-block.w-100(src='img/banner3.png', alt='Третий слайд')
+                            a.carousel-control-prev(href='#carouselExampleIndicators', role='button', data-slide='prev')
+                                span.carousel-control-prev-icon(aria-hidden='true')
+                                span.sr-only Previous
+                            a.carousel-control-next(href='#carouselExampleIndicators', role='button', data-slide='next')
+                                span.carousel-control-next-icon(aria-hidden='true')
+                                span.sr-only Next
                 .col-12.col-lg-3
                     ul.header-services.d-flex.flex-lg-column.justify-content-between
                         li

@@ -96,7 +96,7 @@ block content
 												p.news-item__descr 
 													|Дорогие абитуриенты! Международный банковский институт имени Анатолия Собчака 
 													|принимает документы от абитуриентов для поступления!
-								.tab-pane.fade.show#events
+								.tab-pane.d-lg-none.fade.show#events
 									.events-list 
 										.events-item 
 											p.events-item__date 03.07.2020
@@ -268,3 +268,32 @@ block content
 							h4 100%
 							h6 ГАРАНТИЯ ТРУДОУСТРОЙСТВА
 							p 40% ПРЕПОДАВАТЕЛЕЙ МБИ РАБОТАЮТ В ДЕЙСТВУЮЩИХ БИЗНЕС-СТРУКТУРАХ. ВСЕ ВЫПУСКНИКИ ТРУДОУСТРАИВАЮТСЯ В ТЕЧЕНИИ 2-3 МЕСЯЦЕВ ПОСЛЕ ПОЛУЧЕНИЯ ДИПЛОМА.
+		.info-mobile.d-sm-none
+			#info_mobile.carousel.slide(data-ride='carousel')
+				.carousel-inner
+					.carousel-item.active
+						.info-mobile__item
+							h4 1 
+							h6 ЕДИНСТВЕННЫЙ ВУЗ РОССИИ
+							p ОБЛАДАТЕЛЬ НАГРАДЫ ЕВРОПЕЙСКОЙ СЕТИ БАНКОВСКОГО ОБУЧЕНИЯ (EBTN) «ЗА ВЫДАЮЩИЕСЯ ДОСТИЖЕНИЯ В ОБЛАСТИ КАЧЕСТВА ОБРАЗОВАНИЯ» И ДИПЛОМАНТ КОНКУРСА КАЧЕСТВА ОБРАЗОВАНИЯ ПРАВИТЕЛЬСТВА РОССИИ
+					.carousel-item
+						.info-mobile__item
+							h4 1991
+							h6 ГОД ОСНОВАНИЯ ИНСТИТУТА
+							p СОГЛАСНО УКАЗУ МЭРА САНКТ-ПЕТЕРБУРГА АНАТОЛИЯ СОБЧАКА
+					.carousel-item
+						.info-mobile__item
+							h4 21000
+							h6 ВЫПУСКНИКОВ
+							p ВЫПУСКНИКИ МБИ: СОБСТВЕННИКИ БИЗНЕСА, МЕНЕДЖЕРЫ СРЕДНЕГО ЗВЕНА И РУКОВОДИТЕЛИ В КРУПНЕЙШИХ БАНКАХ СТРАНЫ, СОТРУДНИКИ МЕЖДУНАРОДНЫХ КОМПАНИЙ
+					.carousel-item
+						.info-mobile__item
+							h4 100%
+							h6 ГАРАНТИЯ ТРУДОУСТРОЙСТВА
+							p 40% ПРЕПОДАВАТЕЛЕЙ МБИ РАБОТАЮТ В ДЕЙСТВУЮЩИХ БИЗНЕС-СТРУКТУРАХ. ВСЕ ВЫПУСКНИКИ ТРУДОУСТРАИВАЮТСЯ В ТЕЧЕНИИ 2-3 МЕСЯЦЕВ ПОСЛЕ ПОЛУЧЕНИЯ ДИПЛОМА.
+				a.carousel-control-prev(href='#info_mobile', role='button', data-slide='prev')
+					span.carousel-control-prev-icon(aria-hidden='true')
+					span.sr-only Previous
+				a.carousel-control-next(href='#info_mobile', role='button', data-slide='next')
+					span.carousel-control-next-icon(aria-hidden='true')
+					span.sr-only Next

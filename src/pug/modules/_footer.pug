@@ -2,9 +2,9 @@ footer.footer
     .footer-social.py-2
         .container-fluid
             .row.no-gutters.justify-content-center
-                .col-6.col-lg-3.d-flex.justify-content-center.align-items-center
+                .col-5.col-sm-6.col-lg-4.d-flex.justify-content-center.align-items-center
                     h5 Подписывайтесь на нас:
-                .col-6.col-lg-3
+                .col-5.col-sm-6.col-lg-4
                     .footer-social__block.d-flex.justify-content-center
                         div
                             a(href="#")
@@ -21,10 +21,10 @@ footer.footer
     .footer-main.py-5
         .container
             .row.justify-content-between.flex-column.flex-sm-row.align-items-center.align-items-sm-start
-                .col-4
+                .col-9.col-sm-4
                     .footer-contacts
                         h4 Контакты
-                        .footer-contacts__block
+                        .footer-contacts__block.d-none.d-sm-block
                             div
                                 p 191011, г. Санкт-Петербург
                                 p Невский пр., д. 60
@@ -44,7 +44,16 @@ footer.footer
                                 p 
                                     a(href="#") +7 812 570-55-50
                                 p Экономический лицей
-                .col-4
+                        .footer-contacts__mobile.d-sm-none
+                            div 
+                                i.fas.fa-map-marker-alt
+                                p 191011, г. Санкт-Петербург, Невский пр., д. 60
+                            div
+                                i.fas.fa-phone-alt
+                                p 
+                                    a(href="#") 8 800 100-06-44 (бесплатно по России)
+                                    a(href="#") +7 812 570-55-76(приемная комиссия)
+                .col-9.col-sm-4
                     .footer-about.d-none.d-sm-block
                         h4 Об институте
                         ul.footer-about-menu
@@ -77,7 +86,7 @@ footer.footer
                             span  1991-2020 АНО ВО "МБИ имени Анатолия Собчака" 
                             |Сайт разработан в соответствии с требованиями 
                             |Постановления Правительства РФ № 582 от 10.07.2013
-                .col-4
+                .col.col-sm-4
                     .footer-sitemap.d-none.d-sm-block
                         h4 Карта сайта
                     .footer-widget
