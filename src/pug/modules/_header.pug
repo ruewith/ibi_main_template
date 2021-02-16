@@ -11,8 +11,9 @@ header.header.pb-sm-3
         .container
             .row.no-gutters
                 .col-2.header-settings.d-flex.justify-content-around.align-items-center
-                    .header-view.d-flex.justify-content-center.align-items-center
-                        i.far.fa-eye
+                    .header-show.d-flex.justify-content-center.align-items-center
+                        a 
+                            i.far.fa-eye
                     .header-lang
                         i.fas.fa-globe
                         span ENG
@@ -43,6 +44,29 @@ header.header.pb-sm-3
                         div
                             a(href="#")
                             i.fab.fa-facebook-f
+    .header-special
+        .container
+            .row.no-gutters.align-items-center
+                .col-12.col-lg-4.mb-1.mb-lg-0.px-3.px-sm-0
+                    .header-special__size.d-flex.justify-content-between.align-items-center
+                        .header-special__title Размер шрифта:
+                        .header-special__item.d-flex
+                            a(href="#" data-class="normal").header-special__normal.active 
+                                span aA
+                            a(href="#" data-class="large").header-special__large
+                                span aA
+                            a(href="#" data-class="big").header-special__big
+                                span aA
+                .col-12.col-lg-4.px-3.px-sm-0
+                    .header-special__color.d-flex.justify-content-between.align-items-center
+                        .header-special__title Цвет сайта:
+                        .header-special__item.d-flex
+                            a(href="#" data-class="full").header-special__full.active
+                                span aA
+                            a(href="#" data-class="light").header-special__light
+                                span aA
+                            a(href="#" data-class="dark").header-special__dark 
+                                span aA
     .header-main
         .container
             .row.no-gutters.d-none.d-sm-block

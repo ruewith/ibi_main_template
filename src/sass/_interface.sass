@@ -11,32 +11,33 @@ body
     font-family: "PT Sans", PTsans, Arial, sans-serif
     line-height: 1
     color: $gray-text
-h1, h2, h3, h4, h5, h6 
+
+h1, h2, h3, h4, h5, h6
     text-transform: uppercase
 .container
     padding: 0
-    &-fluid 
+    &-fluid
         padding: 0
 .breadcrumb
     font-size: .8rem
-    a 
-        &:hover 
+    a
+        &:hover
             text-decoration: underline
-.nav-tabs 
+.nav-tabs
     border-bottom-color: transparent
 .nav-tabs .nav-link
     color: lighten($gray-text, 10%)
-    &:hover 
+    &:hover
         border-color: transparent
     &.active
         color: darken($gray-text, 10%)
         background-color: transparent
         border-color: transparent
-.button 
+.button
     display: inline-block
     padding: .3em 1em
     background-color: $base
     color: #ffffff !important
     text-transform: uppercase
-    &:hover 
+    &:hover
         background-color: lighten($base, 5%)
