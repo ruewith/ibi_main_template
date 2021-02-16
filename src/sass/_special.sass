@@ -1,0 +1,551 @@
+body
+    &.large
+        font-size: 19px
+        .header
+            &-services
+                height: 15em
+                li
+                    a
+                        height: 2.4em
+        .applicants
+            &__item
+                padding: 1em
+                min-height: 15em
+        .news
+            &-item
+                height: 13.5em
+                &__img
+                    width: 11em
+                &__text
+                    width: 24em
+    &.big
+        font-size: 22px
+        .header
+            &-services
+                height: 13em
+                li
+                    a
+                        height: 2em
+                        padding: .3em .5em
+        .news
+            &-item
+                height: 14.3em
+                &__text
+                    width: 18em
+    &.light
+        color: #000000
+        img
+            filter: grayscale(100%)
+        a
+            text-decoration: underline
+            &:hover
+                text-decoration: none
+        .button
+            text-decoration: none
+            background-color: #000000
+            &:hover
+                background-color: #333333
+        .breadcrumb
+            background-color: #ffffff
+            border: 1px solid #000000
+            &-item
+                &.active
+                    color: #000000
+        .header
+            background-color: #fff
+            &-mobile
+                background-color: #000000
+            &-top
+                background-color: #000
+                a
+                    color: #fff
+            &-nav
+                &-menu
+                    li
+                        color: #000000
+                        ul
+                            box-shadow: none
+                            background-color: #eee
+                            border: 1px solid #000000
+                        &:hover
+                            color: #ffffff
+                            background-color: #777777
+            &-main
+                box-shadow: none
+                &-menu
+                    li
+                        color: #000000
+                        ul
+                            box-shadow: none
+                            background-color: #eee
+                            border: 1px solid #000000
+                        &:hover
+                            color: #ffffff
+                            background-color: #777777
+            &-services
+                a
+                    background-color: #000000
+                    color: #ffffff
+                    &:hover
+                        background-color: #888888
+        .footer
+            background-color: #ffffff
+            &-social
+                border-top: 1px solid #000
+                border-bottom: 1px solid #000000
+                color: #000000
+        .main
+            background-color: #ffffff
+        .applicants
+            &__item
+                box-shadow: none
+                border: 1px solid #000000
+                border-top: .5em solid #000000
+                h6
+                    color: #000000
+        .news
+            &-item
+                box-shadow: none
+                border: 1px solid #000000
+                &__title
+                    color: #000000
+            h4
+                color: #000000
+            .nav-link
+                text-decoration-color: #000000
+        .events
+            &-list
+                box-shadow: none
+                border: 1px solid #000000
+            &-item
+                border-bottom: 2px solid #000
+                &__title
+                    color: #000000
+        .about
+            box-shadow: none
+            &-text
+                h2
+                    color: #000000
+        .info
+            background-color: #000000
+            h3
+                color: #000000
+            &-mobile
+                &__item
+                    background-color: #000000
+        .hotline
+            background-color: #000000
+        .sidebar, .content
+            box-shadow: none
+            border: 1px solid #000000
+    &.dark
+        color: #ffffff
+        img
+            filter: grayscale(100%)
+        a
+            text-decoration: underline
+            &:hover
+                text-decoration: none
+        .button
+            background-color: #ffffff
+            color: #000000 !important
+            text-decoration: none
+            &:hover
+                background-color: #cccccc
+        .breadcrumb
+            background-color: #000000
+            border: 1px solid #ffffff
+            &-item
+                &.active
+                    color: #ffffff
+        .header
+            &-mobile
+                background-color: #000000
+                background-color: #000000
+            &-top
+                background-color: #ffffff
+                color: #000000
+            &-nav
+                &-menu
+                    li
+                        color: #fff
+                        ul
+                            background-color: #111111
+                            border: 1px solid #ffffff
+                        &:hover
+                            color: #000
+                            background-color: #cccccc
+            &-main
+                box-shadow: none
+                background-color: #000000
+                &-menu
+                    li
+                        color: #fff
+                        ul
+                            background-color: #111111
+                            border: 1px solid #ffffff
+                        &:hover
+                            color: #000
+                            background-color: #cccccc
+            &-services
+                a
+                    background-color: #ffffff
+                    color: #000000
+                    &:hover
+                        background-color: #bbbbbb
+        .footer
+            background-color: #000000
+            &-social
+                background-color: #000000
+                color: #ffffff
+                border-top: 1px solid #ffffff
+                border-bottom: 1px solid #ffffff
+            &-info
+                p
+                    span
+                        color: #fefefe
+        .main
+            background-color: #000000
+        .applicants
+            &__item
+                background-color: #000000
+                border: 1px solid #ffffff
+                border-top: .5em solid #ffffff
+                h6
+                    color: #ffffff
+        .news
+            &-item
+                box-shadow: none
+                background-color: #000000
+                border: 1px solid #ffffff
+                &__title
+                    color: #ffffff
+            h4
+                color: #ffffff
+            .nav-link
+                text-decoration-color: #ffffff
+        .events
+            &-list
+                background-color: #000000
+                border: 1px solid #ffffff
+            &-item
+                border-bottom: 2px solid #ffffff
+                &__title
+                    color: #ffffff
+        .about
+            box-shadow: none
+            background-color: #000000
+            h2
+                color: #ffffff
+        .info
+            color: #000000
+            background-color: #ffffff
+            h3
+                background-color: #000000
+                color: #ffffff
+            &-mobile
+                &__item
+                    color: #000000
+                    background-color: #ffffff
+        .hotline
+            color: #000000
+            background-color: #ffffff
+        .sidebar, .content
+            box-shadow: none
+            background-color: #000000
+            border: 1px solid #ffffff
+
+@media ( max-width: 1200px )
+    body
+        &.large
+            .header
+                &-services
+                    height: 12em
+                    li
+                        a
+                            height: 1.9em
+                            padding: .3em
+            .applicants
+                &__item
+                    min-height: 12em
+            .news
+                &-item
+                    height: 15em
+                    &__img
+                        width: 10em
+                    &__text
+                        width: 18em
+    body
+        &.big
+            .header
+                &-social
+                    display: none !important
+                &-services
+                    height: 10em
+                    li
+                        a
+                            height: 1.5em
+                            padding: .3em
+                        i
+                            display: none
+                &-main
+                    &-menu
+                        font-size: .9em
+            .applicants
+                &__item
+                    padding: 1em
+                    min-height: 12em
+            .news
+                &-item
+                    height: 16em
+                    &__img
+                        width: 9em
+                    &__text
+                        width: 14em
+@media ( max-width: 992px )
+    body
+        &.large
+            .header
+                &-top
+                    font-size: .7em
+                &-social
+                    display: none !important
+                &-services
+                    height: auto
+                    li
+                        a
+                            justify-content: space-around
+                            height: 2.5em
+                            font-size: .7em
+            .applicants
+                &__item
+                    padding: .5em
+            .news
+                &-item
+                    height: 12em
+                    &__text
+                        width: 22em
+        &.big
+            .header
+                &-top
+                    font-size: .8em
+                &-nav
+                    &-menu
+                        font-size: 0.8em
+                &-services
+                    height: auto
+                    li
+                        a
+                            justify-content: space-around
+                            height: 2.5em
+                            font-size: .7em
+            .applicants
+                &__item
+                    padding: .5em
+            .news
+                &-item
+                    padding: 1em
+                    height: 12em
+                    &__img
+                        width: 8em
+                    &__text
+                        width: 20em
+@media ( max-width: 768px )
+    body
+        &.large
+            .header
+                &-nav
+                    &-menu
+                        font-size: .8em
+                &-main
+                    &-menu
+                        font-size: .8em
+                &-services
+                    li
+                        a
+                            font-size: .5em
+            .applicants
+                &__item
+                    h6
+                        font-size: .8em
+            .news
+                &-item
+                    height: 15em
+                    &__text
+                        width: 13em
+            .info
+                &__item
+                    h6
+                        font-size: .6em
+                    p
+                        font-size: .6em
+                h3
+                    font-size: 1.5em
+        &.big
+            .header
+                &-top
+                    font-size: 0.6em
+                &-nav
+                    &-menu
+                        font-size: .7em
+                &-main
+                    &-menu
+                        font-size: .7em
+                &-services
+                    li
+                        a
+                            font-size: .5em
+            .footer
+                &-social
+                    div
+                        font-size: 1em
+            .applicants
+                &__item
+                    min-height: 10em
+                    h6
+                        font-size: .7em
+                    ul
+                        font-size: .8em
+            .news
+                &-item
+                    height: 15em
+                    &__text
+                        width: 12em
+            .info
+                &__item
+                    h6
+                        font-size: .5em
+                    p
+                        font-size: .5em
+                h3
+                    font-size: 1.5em
+@media ( max-width: 576px )
+    body
+        &.large
+            .header
+                &-mobile
+                    &__logo
+                        width: 210px
+                &-services
+                    li
+                        a
+                            font-size: 2em
+                            height: auto
+            .footer
+                &-social
+                    h5
+                        font-size: .7em
+            .applicants
+                &__item
+                    min-height: 0
+            .news
+                &-item
+                    height: 12em
+                    padding: .5em
+                    margin-bottom: .1em
+                    &__img
+                        display: none
+                    &__text
+                        width: 100%
+            .info
+                &-mobile
+                    h6
+                        font-size: 1.3em
+        &.big
+            .header
+                &-mobile
+                    &__menu
+                        font-size: 3em
+                    &__logo
+                        width: 210px
+                &-services
+                    li
+                        a
+                            font-size: 2em
+                            height: auto
+                        i
+                            display: block
+            .footer
+                &-social
+                    h5
+                        font-size: .7em
+            .applicants
+                &__item
+                    min-height: 0
+            .news
+                &-item
+                    height: 12em
+                    padding: .5em
+                    margin-bottom: .1em
+                    &__img
+                        display: none
+                    &__text
+                        width: 100%
+            .about
+                &-text
+                    h2
+                        font-size: 1.5em
+                    p
+                        font-size: .8em
+            .info
+                &-mobile
+                    h6
+                        font-size: 1em
+                    p
+                        font-size: .8em
+        &.light
+            .applicants
+                &__item
+                    border-top: 1px solid #000
+        &.dark
+            .applicants
+                &__item
+                    border-top: 1px solid #fff
+
+.header
+    &-special
+        background: #aaa
+        display: none
+        &__title
+            font-family: "Montserrat", sans-serif
+            font-size: 1.2em
+            color: #ffffff
+            font-weight: 500
+        &__item
+            a
+                text-decoration: none !important
+            .active
+                background-color: #ccc
+        a
+            display: flex
+            width: 45px
+            height: 45px
+            justify-content: center
+            margin: 0 5px
+            align-items: center
+            color: #000000
+            font-weight: 600
+            cursor: pointer
+        &__large
+            font-size: 1.2em
+        &__big
+            font-size: 1.5em
+        &__color
+            a
+                font-size: 1.2em
+            span
+                padding: 5px
+        &__full
+            span
+                color: $base
+                background-color: #fff
+                border: 2px solid $base
+        &__light
+            span
+                background-color: #fff
+                border: 2px solid #000
+        &__dark
+            span
+                color: #ffffff
+                background-color: #000
+                border: 2px solid #fff
